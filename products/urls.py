@@ -7,7 +7,7 @@ from . import views
 
 urlpatterns = [
     path('', views.index),
-    # path('new', views.new)
+    path('new', views.new)  #dodane do wyświetlenia "New Products" -zapisane w views
 ]
 
 #2.od P

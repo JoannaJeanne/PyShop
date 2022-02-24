@@ -6,8 +6,8 @@ def index(request):
     return HttpResponse('Hello World')
 
 
-# def new(request):
-#     return HttpResponse('New Products')
+def new(request):
+    return HttpResponse('New Products')
 
 
 #1.od P:
